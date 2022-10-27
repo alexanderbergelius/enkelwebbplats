@@ -1,0 +1,97 @@
+.container{
+  height: 100%;
+  display: grid; /* definierar att detta ska vara ett grid */
+  grid-gap: 4px;  /* gör ett gap mellan alla element */
+  grid-template-columns: repeat(12, 1fr);  /* mängden columner, alla är en 12:e del */
+  grid-template-rows: 80px 60px auto;
+
+}
+/* Kopierat från W3 schools- förklara om tid  */
+.dropbtn {
+  background-color: rgb(113, 151, 242);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown {
+  position: relative;
+  display: none;
+background-color: rgb(113, 151, 242);
+}
+
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(113, 151, 242);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown-content a:hover {background-color: rgb(113, 151, 242)} /* */
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown:hover .dropdown-content {  /* */
+  display: block;
+}
+/* Kopierat från W3 schools- förklara om tid  */
+.dropdown:hover .dropbtn {  /* */
+  background-color: #rgb(113, 151, 242);
+}
+
+header{
+grid-column: 1 / -1;
+}
+
+.nav{
+grid-column: 1 /-1;
+grid-rows: 3;
+
+}
+
+.content{
+  grid-column: 3 / -1;
+  display: flex;
+  flex-direction: column;
+  }
+
+ .bild {} /* Har nog mest glömt att ta bort denna- mistänker att inget bör hända om denna tas bort då jag inte gett några värden. */
+
+.menu{
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+
+}
+
+@media only screen and (max-width: 450px){
+	header{
+
+}
+	.nav{
+grid-column: 1 / 10;
+}
+  .menu{
+  display: none; /* Detta gömmer elementet när media queryn tar vid */
+
+  }
+  .dropdown{
+  grid-column: 10 / -1;
+  display: inline-block; /* */
+  }
+
+  .content{
+    grid-column: 1 / -1;
+    display: flex; /* */
+    flex-direction: column;/* */
+  }
+}

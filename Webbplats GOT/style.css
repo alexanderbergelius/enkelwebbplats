@@ -1,0 +1,55 @@
+.container{
+  text-align: center;
+}
+
+h1{ color: rgb(232, 57, 34)
+
+}
+
+p{
+  text-align: left;
+  /* Genom pdding och margin så ser jag till att texten p inte gå ända vägen ut i elementet utan att den har lite marginal vilket jag angett i form av PX */
+  margin-left: : 45px;
+  padding-left: 45px;
+  margin-right: 25px;
+  padding-right: 25px;
+}
+
+p::first-letter { /* Nedan så anger jag första bokstavens storlek och font, samt rad höjden för att se till att det inte blir för stor rad skilland och ser konstigt ut */
+  line-height: 100%;
+  font-family: 'Lobster', cursive;
+  font-size: 300%;
+
+}
+
+.body{
+
+
+  color:rgb(255, 255, 255);
+}
+
+header{
+  background-color: rgb(190, 227, 145);
+}
+
+.menu{
+  background-color: rgb(130, 218, 158);
+  background-image: linear-gradient(rgb(130, 218, 158), white);/*  gör så att i min menu som har backroundfärgen 130, 218, 158 så ska den ''fade'' till vit  */
+
+}
+
+.content{
+  background: rgb(231, 121, 121);
+
+}
+
+.nav{
+  background-color: rgb(113, 151, 242);
+}
+.bild{
+    width: 40%;
+    display: block; /* Gör bilden till et inline/block element */
+    margin-left: auto;  /* Genom margin-left/right:auto; så centrerar jag bilden */
+    margin-right: auto;
+    border: 5px solid; /* Ger bilden en vit kant  */
+    border-color:  rgb(255, 255, 255)

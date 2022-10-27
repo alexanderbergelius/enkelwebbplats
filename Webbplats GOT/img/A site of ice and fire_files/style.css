@@ -1,0 +1,58 @@
+.container{
+  text-align: center;
+/*  display: flex;*/
+}
+
+h1{ color: rgb(232, 57, 34)
+
+}
+
+p{
+  margin: 20px; /* */
+}
+
+p::first-letter {
+  font-family: 'Lobster', cursive; /* */
+  font-size: 70px;
+
+}
+
+.body{
+
+
+  color:rgb(255, 255, 255);
+}
+
+.header{
+  background-color: rgb(190, 227, 145);
+}
+
+.menu{
+  background-color: rgb(130, 218, 158);
+  background-image: linear-gradient(rgb(130, 218, 158), white);/* */
+
+}
+
+.content{
+  background: rgb(231, 121, 121);
+
+}
+
+.nav{
+  background-color: rgb(113, 151, 242);
+}
+.bild{
+    width: 40%;
+    display: block;
+    margin-left: auto;  /* */
+    margin-right: auto; /* */
+    border: 5px solid; /* */
+    border-color:  rgb(255, 255, 255) /* */
+
+
+    /* hur förklara detta
+  }
+
+/*  .right{
+    display: inline;
+}
