@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+
+a:visited {
+  color: rgb(35, 10, 173);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+
 h1{ color: rgb(232, 57, 34)
 
 }
