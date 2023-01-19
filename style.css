@@ -23,7 +23,7 @@ h1{ color: rgb(232, 57, 34)
 p{
   text-align: left;
   /* Genom pdding och margin så ser jag till att texten p inte gå ända vägen ut i elementet utan att den har lite marginal vilket jag angett i form av PX */
-  margin-left: : 45px;
+  margin-left:  45px;
   padding-left: 45px;
   margin-right: 25px;
   padding-right: 25px;
@@ -66,4 +66,4 @@ header{
     margin-left: auto;  /* Genom margin-left/right:auto; så centrerar jag bilden */
     margin-right: auto;
     border: 5px solid; /* Ger bilden en vit kant  */
-    border-color:  rgb(255, 255, 255)
+    border-color:  rgb(255, 255, 255);}
